@@ -19,8 +19,8 @@ function nameToAttributes(drivers) {
 
 function attributesToPhrase(drivers) {
   return drivers.map(
-    function (driver) {
-      return;
+    function (object) {
+      return "${object.name} is from ${object.hometown}";
     }
   );
 
